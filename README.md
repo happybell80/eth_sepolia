@@ -109,6 +109,8 @@ echo "foundry.toml.lock" >> .gitignore # If using lock file
 
 git add .gitignore
 git commit -m "Initial commit with .gitignore"
+```
+
 ## 3단계: 스마트 컨트랙트 개발 및 배포 (Foundry)
 
 1. **Foundry 프로젝트 초기화:**
