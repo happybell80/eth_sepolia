@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  width: 300px;
+}
+
+.transfer-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-message {
+  color: #ff6b6b;
+  margin-top: 15px;
+  max-width: 400px;
+}
+
+.tx-info {
+  margin-top: 20px;
+  background-color: #3c4049;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.8em;
+}
+
+.tx-info a {
+  color: #61dafb;
+  word-break: break-all;
+}
+
+.status-pending_confirmation, .status-pending_receipt, .status-pending { color: #feca57; font-weight: bold; }
+.status-success { color: #1dd1a1; font-weight: bold; }
+.status-failed { color: #ff6b6b; font-weight: bold; }
+.status-error { color: #ff6b6b; font-weight: bold; }
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}

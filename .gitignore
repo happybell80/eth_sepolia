@@ -9,3 +9,4 @@ broadcast/
 out/
 broadcast/
 backend/venv/
+frontend/node_modules/
