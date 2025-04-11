@@ -1,12 +1,27 @@
+# Environments
 .env
+*.env
+
+# Logs
 *.log
+
+# Python
 __pycache__/
-node_modules/
 venv/
-out/
+*.pyc
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+.pnp.*
+.yarn/*
+
+# Foundry
 cache/
-broadcast/
 out/
 broadcast/
-backend/venv/
-frontend/node_modules/
+deploy-config.json
+foundry.toml.lock
